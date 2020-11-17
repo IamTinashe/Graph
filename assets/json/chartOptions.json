@@ -1,7 +1,7 @@
 {
 	"data": {
 		"chart": {
-			"height": 520,
+			"height": 500,
 			"type": "line",
 			"stacked": false
 		},
@@ -95,7 +95,9 @@
 			"size": 0
 		},
 		"xaxis": {
-			"type": "datetime"
+			"type": "datetime",
+			"min": "09/01/2003",
+			"max": "03/01/2020"
 		},
 		"yaxis": [
 			{
@@ -103,12 +105,12 @@
 					"text": "Евро €"
 				},
 				"min": 0,
-				"max": 2000
+				"forceNiceScale": true
 			},
 			{
 				"opposite": true,
 				"min": 0,
-				"max": 6,
+				"forceNiceScale": true,
 				"title": {
 					"text": "Золоте"
 				}
@@ -119,6 +121,7 @@
 				},
 				"opposite": true,
 				"min": 0,
+				"forceNiceScale": true,
 				"max": 100
 			}
 		]
