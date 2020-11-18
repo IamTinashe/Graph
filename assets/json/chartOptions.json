@@ -3,7 +3,23 @@
 		"chart": {
 			"height": 500,
 			"type": "line",
-			"stacked": false
+			"stacked": false,
+			"zoom": {
+				"enabled": true,
+				"type": "y",  
+				"autoScaleXaxis": false,  
+				"zoomedArea": {
+					"fill": {
+						"color": "#90CAF9",
+						"opacity": 0.4
+					},
+					"stroke": {
+						"color": "#0D47A1",
+						"opacity": 0.4,
+						"width": 1
+					}
+				}
+		}
 		},
 		"stroke": {
 			"width": [
@@ -105,11 +121,13 @@
 					"text": "Евро €"
 				},
 				"min": 0,
+				"max": 3200,
 				"forceNiceScale": true
 			},
 			{
 				"opposite": true,
 				"min": 0,
+				"max": 8,
 				"forceNiceScale": true,
 				"title": {
 					"text": "Золоте"
