@@ -6,8 +6,8 @@
 			"stacked": false,
 			"zoom": {
 				"enabled": true,
-				"type": "y",  
-				"autoScaleXaxis": false,  
+				"type": "y",
+				"autoScaleXaxis": false,
 				"zoomedArea": {
 					"fill": {
 						"color": "#90CAF9",
@@ -19,7 +19,7 @@
 						"width": 1
 					}
 				}
-		}
+			}
 		},
 		"stroke": {
 			"width": [
@@ -121,13 +121,13 @@
 					"text": "Евро €"
 				},
 				"min": 0,
-				"max": 3200,
+				"max": 3500,
 				"forceNiceScale": true
 			},
 			{
 				"opposite": true,
 				"min": 0,
-				"max": 8,
+				"max": 6,
 				"forceNiceScale": true,
 				"title": {
 					"text": "Золоте"
