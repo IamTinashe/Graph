@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const webpack = require("webpack");
 
 module.exports = {
   head: {
@@ -54,11 +55,11 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-      
-    }
+    vendor: ["jquery"],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: "jquery"
+      })
+    ]
   }
 }
